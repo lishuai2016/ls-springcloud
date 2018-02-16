@@ -1,6 +1,16 @@
-Spring Cloud Netflix
+地址：http://blog.didispace.com/springcloud7-2/
 
-http://blog.didispace.com/springcloud7-2/
+Spring Cloud Eureka是Spring Cloud Netflix项目下的服务治理模块。
+而Spring Cloud Netflix项目是Spring Cloud的子项目之一，
+主要内容是对Netflix公司一系列开源产品的包装，
+它为Spring Boot应用提供了自配置的Netflix OSS整合。通过一些简单的注解，
+开发者就可以快速的在应用中配置一下常用模块并构建庞大的分布式系统。
+它主要提供的模块包括：服务发现（Eureka），断路器（Hystrix），智能路由（Zuul），
+客户端负载均衡（Ribbon）等。
+
+
+服务治理可以选择的技术（Netflix Eureka、Consul、Zookeeper）
+
 
 eureka-server	服务发现与注册中心	1111
 compute-service 一个服务提供者   2222

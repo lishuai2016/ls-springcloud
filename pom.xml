@@ -24,6 +24,30 @@
         <module>config-client-eureka-kafka</module>
         <module>config-server-eureka</module>
         <module>config-server-eureka-kafka</module>
+
+        <!--新版本-->
+        <module>eureka-client</module>
+        <module>eureka-consumer</module>
+        <module>eureka-consumer-feign</module>
+        <module>eureka-consumer-feign-hystrix</module>
+        <module>eureka-consumer-ribbon</module>
+        <module>eureka-consumer-ribbon-hystrix</module>
+
+        <module>eureka-feign-api</module>
+        <module>eureka-feign-client</module>
+        <module>eureka-feign-consumer</module>
+
+        <module>hystrix-collapser-consumer</module>
+        <module>hystrix-collapser-provider</module>
+        <module>hystrix-dashboard</module>
+
+        <module>stream-hello</module>
+
+        <module>trace-1</module>
+        <module>trace-2</module>
+
+        <module>turbine</module>
+        <module>turbine-amqp</module>
     </modules>
 
 </project>

@@ -30,11 +30,28 @@
         <module name="config-server" />
         <module name="config-server-eureka" />
         <module name="config-server-eureka-kafka" />
+        <module name="eureka-client" />
+        <module name="eureka-consumer" />
+        <module name="eureka-consumer-feign" />
+        <module name="eureka-consumer-feign-hystrix" />
+        <module name="eureka-consumer-ribbon" />
+        <module name="eureka-consumer-ribbon-hystrix" />
         <module name="eureka-feign" />
+        <module name="eureka-feign-api" />
+        <module name="eureka-feign-client" />
+        <module name="eureka-feign-consumer" />
         <module name="eureka-ribbon" />
         <module name="eureka-server" />
+        <module name="hystrix-collapser-consumer" />
+        <module name="hystrix-collapser-provider" />
+        <module name="hystrix-dashboard" />
         <module name="service-A" />
         <module name="service-B" />
+        <module name="stream-hello" />
+        <module name="trace-1" />
+        <module name="trace-2" />
+        <module name="turbine" />
+        <module name="turbine-amqp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -46,12 +63,29 @@
       <module name="config-server" target="1.8" />
       <module name="config-server-eureka" target="1.8" />
       <module name="config-server-eureka-kafka" target="1.8" />
+      <module name="eureka-client" target="1.8" />
+      <module name="eureka-consumer" target="1.8" />
+      <module name="eureka-consumer-feign" target="1.8" />
+      <module name="eureka-consumer-feign-hystrix" target="1.8" />
+      <module name="eureka-consumer-ribbon" target="1.8" />
+      <module name="eureka-consumer-ribbon-hystrix" target="1.8" />
       <module name="eureka-feign" target="1.8" />
+      <module name="eureka-feign-api" target="1.8" />
+      <module name="eureka-feign-client" target="1.8" />
+      <module name="eureka-feign-consumer" target="1.8" />
       <module name="eureka-ribbon" target="1.8" />
       <module name="eureka-server" target="1.8" />
+      <module name="hystrix-collapser-consumer" target="1.8" />
+      <module name="hystrix-collapser-provider" target="1.8" />
+      <module name="hystrix-dashboard" target="1.8" />
       <module name="ls-springcloud" target="1.5" />
       <module name="service-A" target="1.8" />
       <module name="service-B" target="1.8" />
+      <module name="stream-hello" target="1.8" />
+      <module name="trace-1" target="1.8" />
+      <module name="trace-2" target="1.8" />
+      <module name="turbine" target="1.8" />
+      <module name="turbine-amqp" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
