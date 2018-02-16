@@ -30,6 +30,8 @@
         <module name="config-server" />
         <module name="config-server-eureka" />
         <module name="config-server-eureka-kafka" />
+        <module name="consul-client" />
+        <module name="consul-consumer" />
         <module name="eureka-client" />
         <module name="eureka-consumer" />
         <module name="eureka-consumer-feign" />
@@ -63,6 +65,8 @@
       <module name="config-server" target="1.8" />
       <module name="config-server-eureka" target="1.8" />
       <module name="config-server-eureka-kafka" target="1.8" />
+      <module name="consul-client" target="1.8" />
+      <module name="consul-consumer" target="1.8" />
       <module name="eureka-client" target="1.8" />
       <module name="eureka-consumer" target="1.8" />
       <module name="eureka-consumer-feign" target="1.8" />

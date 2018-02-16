@@ -48,6 +48,9 @@
 
         <module>turbine</module>
         <module>turbine-amqp</module>
+
+        <module>consul-client</module>
+        <module>consul-consumer</module>
     </modules>
 
 </project>

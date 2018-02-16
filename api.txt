@@ -1,0 +1,1 @@
+discoveryClient.getServices()可以获取注册中心的服务列表

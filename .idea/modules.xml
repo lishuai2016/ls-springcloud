@@ -10,6 +10,8 @@
       <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-server-eureka/config-server-eureka.iml" filepath="$PROJECT_DIR$/config-server-eureka/config-server-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-server-eureka-kafka/config-server-eureka-kafka.iml" filepath="$PROJECT_DIR$/config-server-eureka-kafka/config-server-eureka-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consul-client/consul-client.iml" filepath="$PROJECT_DIR$/consul-client/consul-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consul-consumer/consul-consumer.iml" filepath="$PROJECT_DIR$/consul-consumer/consul-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-client/eureka-client.iml" filepath="$PROJECT_DIR$/eureka-client/eureka-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-consumer/eureka-consumer.iml" filepath="$PROJECT_DIR$/eureka-consumer/eureka-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-consumer-feign/eureka-consumer-feign.iml" filepath="$PROJECT_DIR$/eureka-consumer-feign/eureka-consumer-feign.iml" />
