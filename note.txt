@@ -1,7 +1,25 @@
+Spring Cloud Netflix
+
+http://blog.didispace.com/springcloud7-2/
+
 eureka-server	服务发现与注册中心	1111
 compute-service 一个服务提供者   2222
 eureka-ribbon	负载均衡器(包含一个服务消费者)	3333
 eureka-feign    负载均衡Feign是一个声明式的Web Service客户端  4444
+(在服务消费端引入hystrix功能是实现融断机制来避免在微服务架构中个别服务出现异常时引起的故障蔓延)
+
+config-client 配置中心的消费端
+config-server 配置中心的服务端
+config-repo 存放配置文件
+
+api-gateway
+zuul	动态路由器除了具备服务路由、均衡负载功能之外，它还具备了权限控制等功能
+
+config-client-eureka           配置中心引入消息总线机制activeMQ
+config-client-eureka-kafka    配置中心引入消息总线机制kafka
+
+
+
 
 
 

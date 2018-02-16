@@ -22,22 +22,36 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="api-gateway" />
         <module name="compute-service" />
         <module name="config-client" />
+        <module name="config-client-eureka" />
+        <module name="config-client-eureka-kafka" />
         <module name="config-server" />
+        <module name="config-server-eureka" />
+        <module name="config-server-eureka-kafka" />
         <module name="eureka-feign" />
         <module name="eureka-ribbon" />
         <module name="eureka-server" />
+        <module name="service-A" />
+        <module name="service-B" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="api-gateway" target="1.8" />
       <module name="compute-service" target="1.8" />
       <module name="config-client" target="1.8" />
+      <module name="config-client-eureka" target="1.8" />
+      <module name="config-client-eureka-kafka" target="1.8" />
       <module name="config-server" target="1.8" />
+      <module name="config-server-eureka" target="1.8" />
+      <module name="config-server-eureka-kafka" target="1.8" />
       <module name="eureka-feign" target="1.8" />
       <module name="eureka-ribbon" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="ls-springcloud" target="1.5" />
+      <module name="service-A" target="1.8" />
+      <module name="service-B" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
